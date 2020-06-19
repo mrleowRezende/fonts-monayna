@@ -1,0 +1,255 @@
+/*@cor-um:#abbcb6;
+//@cor-dois:rgb(103, 82, 87);
+//@cor-preto:#222;
+//@cor-branco:#fff;
+//
+//@font-face {
+//    font-family: "adouliss";
+//    src: url("https://www.leowrezende.com.br/fonts-monayna/adouliss.otf")  format("opentype");
+//}
+//
+//@font-face {
+//    font-family: "aver";
+//    src: url("https://www.leowrezende.com.br/fonts-monayna/aver.ttf")  format("truetype");
+//	font-weight:normal;
+//}
+//@font-face {
+//    font-family: "aver";
+//    src: url("https://www.leowrezende.com.br/fonts-monayna/aver-bold.ttf") format("truetype");
+//	font-weight:bold;
+//}
+//@font-face {
+//    font-family: "aver";
+//    src: url("https://www.leowrezende.com.br/fonts-monayna/aver-italic.ttf") format("truetype");
+//	font-weight:normal;
+//	text-style:italic;
+//}
+//@font-face {
+//    font-family: "aver";
+//    src: url("https://www.leowrezende.com.br/fonts-monayna/aver-bold-italic.ttf")  format("truetype");
+//	font-weight:bold;
+//	text-style:italic;
+//}
+//
+//@font-face {
+//    font-family: 'breamcatcher';
+//    src: url(https://www.leowrezende.com.br/fonts-monayna/breamcatcher.ttf);
+//}
+//
+//body{
+//	font-family:"aver";
+//	font-size:16px;
+//}
+//
+//.main-navigation>div{
+//	width: 100%;
+//	display: flex;
+//}
+//
+//#menu-principal{
+//	width: 100%;
+//}
+//
+//.main-navigation>div>ul li, .main-navigation>div>ul li a{
+//	flex:1;
+//	text-align:center;
+//}
+//
+//.main-navigation a:link, .main-navigation a, .main-navigation a:link, .main-navigation a:visited{
+//	font-family: 'breamcatcher';
+//	background: url(https://monaynablog.files.wordpress.com/2020/06/fundo-menu.png) no-repeat;
+//	background-size:contain;
+//	color: @cor-branco;
+//	text-transform:uppercase;
+//	font-weight:normal;
+//	font-size:1.7em !important;
+//	background-position:45% 0;
+//	padding: 25px 0;
+//}
+//
+//.main-navigation ul li:nth-child(4) a{
+//	font-size:1.5em !important;
+//}
+//
+//
+//.category-blog{
+//	background:@cor-um;
+//	padding:10px;
+//	border-radius:5px;
+//	color:@cor-branco;
+//}
+//
+//.category-blog:hover{
+//	background:darken(@cor-um, 2%);
+//	transition:all .3s;
+//}
+//
+//.post-thumbnail{
+//	width:30%;
+//	float:left;
+//	margin:0;
+//}
+//
+//.category-blog.post-has-image .entry-wrapper{display: flow-root;}
+//
+//.category-blog h2.entry-title{
+//	color:@cor-dois;
+//	font-family:"adouliss";
+//	font-weight:normal;
+//}
+//
+//.category-blog h2.entry-title:hover a{
+//	color:darken(@cor-dois, 2%);
+//	transition:all .3s;
+//}
+//
+//.entry-wrapper .entry-meta{
+//	display:none !important;
+//}
+//
+//@media only screen and (min-width: 1280px){
+//	.entry-content>*:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.wp-block-button):not(.entry-attachment), .entry-content>*:not(.wp-block-button){max-width: 1150px;}
+//}
+//
+//@media only screen and (max-width: 500px){
+//	.main-navigation #toggle:not(:checked)~div:not(.woocommerce-menu-container){
+//		display:none
+//}
+//	.main-navigation #toggle:checked~div:not(.woocommerce-menu-container){
+//		diplay:block;
+//	}
+//	.post-thumbnail{width:100%;}
+//	.category-blog.post-has-image .entry-wrapper{display: block;}
+//	.button{background-color: @cor-dois;}
+//	.button:hover, .button:active{background-color: darken(@cor-dois, 2%);}
+//	#menu-principal{flex-direction: column;}
+*/}
+@font-face {
+  font-family: adouliss;
+  src: url(adouliss.otf) format("opentype");
+}
+@font-face {
+  font-family: aver;
+  src: url(aver.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: aver;
+  src: url(aver-bold.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: aver;
+  src: url(aver-italic.ttf);
+  font-weight: normal;
+  text-style: italic;
+}
+@font-face {
+  font-family: aver;
+  src: url(aver-bold-italic.ttf);
+  font-weight: bold;
+  text-style: italic;
+}
+@font-face {
+  font-family: breamcatcher;
+  src: url(breamcatcher.ttf);
+}
+body {
+  font-family: aver;
+  font-size: 16px;
+}
+.main-navigation > div {
+  width: 100%;
+  display: flex;
+}
+#menu-principal {
+  width: 100%;
+}
+.main-navigation > div > ul li,
+.main-navigation > div > ul li a {
+  flex: 1;
+  text-align: center;
+}
+.main-navigation a:link,
+.main-navigation a,
+.main-navigation a:link,
+.main-navigation a:visited {
+  font-family: breamcatcher;
+  background: url(https://monaynablog.files.wordpress.com/2020/06/fundo-menu.png) no-repeat;
+  background-size: contain;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 2em !important;
+  background-position: 45% 0;
+  padding: 25px 0 20px 0;
+}
+
+.category-blog {
+  background: #abbcb6;
+  padding: 10px;
+  border-radius: 5px;
+  color: #ffffff;
+}
+.category-blog:hover {
+  background: #a5b7b1;
+  transition: all .3s;
+}
+.post-thumbnail {
+  width: 30%;
+  float: left;
+  margin: 0;
+}
+.category-blog.post-has-image .entry-wrapper {
+  display: flow-root;
+}
+.category-blog h2.entry-title {
+  color: #675257;
+  font-family: adouliss;
+  font-weight: normal;
+}
+.category-blog h2.entry-title:hover a {
+  color: #614d52;
+  transition: all .3s;
+}
+.entry-wrapper .entry-meta {
+  display: none !important;
+}
+.wp-block-newspack-blocks-homepage-articles article .entry-wrapper>*:first-child{
+    margin-top: 15px;
+}
+@media only screen and (min-width: 1280px) {
+  .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.wp-block-button):not(.entry-attachment),
+  .entry-content > *:not(.wp-block-button) {
+    max-width: 1150px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main-navigation #toggle:not(:checked) ~ div:not(.woocommerce-menu-container) {
+    display: none;
+  }
+  .main-navigation #toggle:checked ~ div:not(.woocommerce-menu-container) {
+    diplay: block;
+  }
+  .post-thumbnail {
+    width: 100%;
+  }
+  .category-blog.post-has-image .entry-wrapper {
+    display: block;
+  }
+  .button {
+    background-color: #675257;
+  }
+  .button:hover,
+  .button:active {
+    background-color: #614d52;
+  }
+  #menu-principal {
+    flex-direction: column;
+  }
+    .main-navigation a:link, .main-navigation a, .main-navigation a:link, .main-navigation a:visited{
+        font-size: 1.5em !important;
+        background-position: 45% 0;
+        padding: 15px 0 10px 0;
+    }
+}
